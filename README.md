@@ -1,6 +1,6 @@
 # VFight
 A Cyber Crime Management System
-Project Done By -
+Done By -
 
 Shamik Bera                            
 
