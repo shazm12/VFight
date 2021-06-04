@@ -1,0 +1,131 @@
+html.body {
+    margin: 0;
+    overflow-x: hidden;
+    background: #eee;
+}
+
+.ban-title {
+    font-family: Consolas;
+    margin-right: 50vh;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px #aaa;
+    margin-top: 0vh;
+    background: linear-gradient(90deg, #092d4b, #0845ec);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    filter: brightness(115%);
+    
+}
+
+.dash {
+    display:flex;
+    grid-template-columns: 2fr 4fr;
+    margin-left: 6vh;
+    grid-gap: 5vh;
+    margin-top: 8vh;
+}
+
+.dash-header {
+    display:flex;
+    justify-content: center;
+    gap: 50vh;
+    margin-left: 20vh;
+}
+
+.dash-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-weight: 1000;
+    margin-top: 0vh;
+}
+
+.wel-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-weight: 1000;
+    margin-top: 1vh;
+
+}
+
+.head-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-weight: 1000;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    margin-bottom: 8vh;
+
+}
+
+.case-head-text-2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-weight: 1000;
+    margin-top: 25vh;
+    margin-left: 0vh;
+    margin-right: 12vh;
+    margin-bottom: 8vh;
+    text-decoration: underline;
+
+}
+
+
+  
+.results tr[visible='false'],
+  .no-result{
+    display:none;
+}
+.results tr[visible='true']{
+    display:table-row;
+}
+  
+.counter{
+    padding:8px; 
+    color:#ccc;
+}
+
+.table_section {
+      margin-left: -15vh;
+}
+
+.side-opt {
+
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10vh;
+    text-decoration: none;
+
+}
+
+.opt-text {
+    text-shadow: 1px 1px 4px #aaa;
+}
+
+.main-tab {
+
+    box-shadow: 8px 10px 12px #aaa;
+    
+}
+
+.case-head-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #aaa;
+    font-weight: 1000;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 25vh;
+
+}
+  
+
+  
